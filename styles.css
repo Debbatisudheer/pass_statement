@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#placeholderDetails {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#details {
+    font-family: 'JetBrains Mono', monospace; /* Use JetBrains Mono font */
+}
+ img {
+    display: block;
+    margin: 0 auto;
+}
+ .summary {
+            font-family: 'JetBrains Mono', monospace;
+            color: green;
+        }
+    /* Media queries for smaller screens */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            h1, h2 {
+                font-size: 1.5em;
+            }
+
+            p, ul {
+                font-size: 0.9em;
+            }
+        }
